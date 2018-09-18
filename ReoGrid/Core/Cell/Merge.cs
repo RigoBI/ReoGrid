@@ -74,7 +74,8 @@ namespace unvell.ReoGrid
 		/// </summary>
 		public bool IsMergedCell
 		{
-			get { return IsStartMergedCell; }
+			//get { return IsStartMergedCell; }
+			get { return InsideMergedRange; }			
 		}
 
 		/// <summary>
